@@ -23,5 +23,6 @@ ConcreteProductA::~ConcreteProductA(){
 
 void ConcreteProductA::Use()
 {
-	cout << "use productB" << endl;	
+	// 产品A
+	cout << "use productA" << endl;	
 }

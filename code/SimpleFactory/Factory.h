@@ -19,6 +19,7 @@ public:
 	Factory();
 	virtual ~Factory();
 
+    // 静态方法
 	static Product * createProduct(string proname);
 
 };

@@ -15,6 +15,7 @@ public:
 	Product();
 	virtual ~Product();
 	
+	// 纯虚函数, CPP不能实现
 	virtual void Use() = 0;
 
 };

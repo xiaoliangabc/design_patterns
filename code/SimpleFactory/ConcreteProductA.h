@@ -17,6 +17,8 @@ public:
 	ConcreteProductA();
 	virtual ~ConcreteProductA();
 	
+	// 虚函数,这样基类指针就可以来调用(这是没必要是虚函数, 如果后续没有其他类来继承)
+	// void Use();
 	virtual void Use();
 
 };
